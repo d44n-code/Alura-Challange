@@ -1,0 +1,65 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Encriptador de mensajes</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./styles/styles.css" />
+  </head>
+
+  <body>
+    <header>
+      <img src="./assets/Logo.svg" alt="logo" />
+    </header>
+    <main>
+      <form class="form__section">
+        <textarea
+          class="form__input"
+          name="mensaje"
+          id="miTextarea"
+          cols="30"
+          rows="10"
+          placeholder="Ingrese el texto aquí"
+        ></textarea>
+        <div class="btn__container">
+          <div class="alert__msj">
+            <img src="./assets/alert.svg" alt="alert" /><span
+              >solo letras minúsculas y sin acento</span
+            >
+          </div>
+        </div>
+        <div class="submit__container">
+          <button class="form__btn" type="button" id="encriptarBtn">
+            Encriptar
+          </button>
+          <button
+            class="form__btn--secondary"
+            type="button"
+            id="desencriptarBtn"
+          >
+            Desencriptar
+          </button>
+        </div>
+      </form>
+      <aside class="result">
+        <img src="./assets/boy.svg" alt="boy" class="result__img" />
+        <div class="result__container">
+          <h3 class="result__title">Ningún mensaje fue encontrado</h3>
+          <p id="result__text" class="result__text">
+            Ingresa el texto que deseas encriptar o desencriptar.
+          </p>
+          <button id="copiarBtn" class="form__btn--secondary hidden">
+            Copiar
+          </button>
+        </div>
+      </aside>
+    </main>
+    <script src="app.js"></script>
+  </body>
+</html>
