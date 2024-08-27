@@ -8,27 +8,11 @@ const buttondesencrip = d.getElementById("desencriptarBtn");
 const buttoncopiar = d.getElementById("copiarBtn");
 
 const llaves = [
-  ["b", "bie"],
-  ["c", "cue"],
-  ["d", "dei"],
-  ["f", "foi"],
-  ["g", "gui"],
-  ["h", "hei"],
-  ["j", "jai"],
-  ["k", "kei"],
-  ["l", "lei"],
-  ["m", "mei"],
-  ["n", "nei"],
-  ["p", "pei"],
-  ["q", "qui"],
-  ["r", "rei"],
-  ["s", "sei"],
-  ["t", "tei"],
-  ["v", "vei"],
-  ["w", "wei"],
-  ["x", "xei"],
-  ["y", "yei"],
-  ["z", "zei"],
+  ["e", "enter"],
+  ["i", "imes"],
+  ["a", "ai"],
+  ["o", "ober"],
+  ["u", "ufat"],
 ];
 
 function encriptarMensaje(mensaje) {

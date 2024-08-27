@@ -1,4 +1,4 @@
-:root {
+* {
   --dark-blue: #0a3871;
   --main-color: #f3f5fc;
   --light-blue: #d8dfe8;
@@ -133,6 +133,7 @@ header img {
     width: 73px;
   }
 }
+
 @keyframes l9 {
   to {
     transform: perspective(300px) translateZ(100px);
